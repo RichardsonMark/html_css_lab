@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+}
+
+body > header {
+    background-color: dodgerblue;
+    color: white;
+    margin: auto;
+    padding: 5px;
+}
+
+body > header > nav > ul > li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+aside {
+    width: 50%;
+    padding-left: 10px;
+    margin-left: 10px;
+    float: right;
+}
+
+body > section {
+    /* width: 50%; */
+    padding-left: 10px;
+    margin-left: 10px;
+    float: left;
+    margin: auto;
+}
+
+body > section > aside > ul {
+    list-style: none;
+} 
+
+body > section > aside > ul > li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 10px;
+} 
+
+body > section > aside > ul > li > h4 {
+    display: inline-block;
+    vertical-align: middle;
+} 
+
+body > section > aside > ul > li > p {
+    display: inline-block;
+    vertical-align: bottom;
+}  
+
+img
+{
+    vertical-align: middle;
+}
+
+body > main {
+    margin: 0 1.5%;
+    padding-bottom: 10px;
+}
+
+body > footer {
+    background-color: dodgerblue;
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
